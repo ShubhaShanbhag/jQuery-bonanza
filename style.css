@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1000px;
+
+}
+.images{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.img-fluid{
+    height: 250px;
+    border: 2px solid black;
+}
+.last{
+    margin-top: 20px;
+}
+.add{
+    width: 200px;
+    height: 200px;
+    opacity: 0.7;
+}
+.btn1 {
+    height: 50px;
+    font-weight: 900;
+    padding: 0 10px;
+    background-color: aqua;
+}
+.brand{
+    font-size: 30px;
+    color: blue;
+    background-color: yellow;
+    padding: 10px 10px;
+    margin-left: 50px;
+    border: 2px solid black;
+    font-weight: 800;
+    border-radius: 10px;
+
+}
